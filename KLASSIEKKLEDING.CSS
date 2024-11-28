@@ -1,0 +1,22 @@
+.categories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    text-align: center;
+}
+
+.jassen:hover{
+    transform: scale(1.1);
+    transition:  0.3s; 
+}
+
+.broeken:hover{
+    transform: scale(1.1);
+    transition:  0.3s; 
+}
+
+.accesoires:hover{
+    transform: scale(1.1);
+    transition:  0.3s; 
+}
