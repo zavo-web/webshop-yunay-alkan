@@ -1,0 +1,37 @@
+.alle-accesoires{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+    margin-right: 90px;
+}
+.zwartpet>img:hover{
+    transform: scale(1.1);
+    transition:  0.3s; 
+}
+.zwartmuts>img:hover{
+    transform: scale(1.1);
+    transition:  0.3s; 
+}
+.lerenhandschoen>img:hover{
+    transform: scale(1.1);
+    transition:  0.3s; 
+}
+
+button {
+    background-color: black; 
+    color: white; 
+    padding: 10px; 
+    font-size: 16px;
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: 0.3s; 
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: black;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px); 
+}
+    
