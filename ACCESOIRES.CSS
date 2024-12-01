@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    gap: 100px;
+    gap: 240px;
     margin-right: 70px;
 
 }
@@ -141,7 +141,7 @@ h1{
 .icons {
     position: absolute;
     top: 30px;
-   right: 5px;
+    right: 5px;
     display: flex;
     gap: 15px;
     align-items: center;
@@ -208,6 +208,3 @@ header h1 {
     background-color: black;
 }
 
-h2{
-    text-align: center;
-}

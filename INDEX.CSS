@@ -161,14 +161,7 @@ header h1 {
     
 }
 
-.korting > h2{
-    position: absolute;
-    text-align: center;
-    color: white;
-    left: 0px;
-    top: 600px;
-    font-size: 50px;
-}
+
 
 .search{
     position: absolute;
@@ -194,3 +187,12 @@ header h1 {
 }
 
 
+
+.korting > h2{
+    position: absolute;
+    text-align: center;
+    color: white;
+    left: 0px;
+    top: 600px;
+    font-size: 50px;
+}

@@ -1,4 +1,43 @@
-/* ALKAN heeft dit gemaakt */
+.alle-accesoires{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+    margin-right: 70px;
+
+}
+.zwartpet>img:hover{
+    transform: scale(1.1);
+    transition:  0.3s; 
+}
+.zwartmuts>img:hover{
+    transform: scale(1.1);
+    transition:  0.3s; 
+}
+.lerenhandschoen>img:hover{
+    transform: scale(1.1);
+    transition:  0.3s; 
+}
+
+button {
+    background-color: black; 
+    color: white; 
+    padding: 10px; 
+    font-size: 16px;
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: 0.3s; 
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: black;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px); 
+}
+    
+
+
 h1{
     text-align: center;
     font-size: 40px;
@@ -6,8 +45,8 @@ h1{
 .logo{
     margin-top: 0px;
     margin-left: 0px;
-    position: relative;
-    margin: 0;
+    position: absolute;
+    border-radius: 50%;
 }
 
 
@@ -17,7 +56,7 @@ h1{
     background-color: rgb(212, 212, 212);
     text-align: center;
     border-radius: 10px;
-   
+    font-size: 20px;
   }
   
  
@@ -30,6 +69,7 @@ h1{
     padding: 14px 16px;
     text-decoration: none;
     border-radius: 10px;
+   
   }
   
 
@@ -40,7 +80,6 @@ h1{
   .dropdown > .dropbutton {
     font-size: 16px;
     border: none;
-    outline: gold;
     color: rgb(0, 0, 0);
     padding: 14px 16px;
     background-color: inherit;
@@ -48,12 +87,18 @@ h1{
     margin: 0; 
     cursor: pointer;
     border-radius: 10px;
+     font-size: 20px;
   }
   
 
-  .navbar > a:hover, .dropdown:hover .dropbutton {
+  .navbar > a:hover {
     background-color: rgb(238, 238, 238);
   }
+
+  .dropdown:hover > .dropbutton{
+    background-color: rgb(238, 238, 238);
+  }
+  
   
 
   .dropdown-content {
@@ -104,19 +149,20 @@ h1{
 }
 
 
-.icons > img {
+.icons img {
     width: 35px;
     cursor: pointer;
     transition: transform 0.2s;
+    gap: 60px;
 }
 
-.icons > img:hover {
+.icons img:hover {
     transform: scale(1.1);
     transition: 0.3ms;
 }
 
 
-header > h1 {
+header h1 {
     text-align: center;
     font-size: 40px;
     margin: 0;
@@ -129,3 +175,36 @@ header > h1 {
     top: 40px;
     
 }
+
+.korting > h2{
+    position: absolute;
+    text-align: center;
+    color: white;
+    left: 0px;
+    top: 600px;
+    font-size: 50px;
+}
+
+.search{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 40px;
+    right: 250px;
+    border-radius: 8px;
+
+}
+
+.search-input{
+    font-size: 16px;
+    color: #333333;
+    outline: black;
+    border-color: #333333;
+    width: 200px;
+
+}
+
+.search-bar{
+    background-color: black;
+}
+

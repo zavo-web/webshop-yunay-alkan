@@ -6,6 +6,7 @@
     gap: 600px;
     text-align: center;
     margin-left: 130px;
+    cursor: pointer;
     
     
 }
@@ -15,8 +16,8 @@
 }
 .ZwarteJas > img:hover{
     transform: scale(1.1);
-    transition: 0.3ms;
-    box-shadow: rgb(0, 0, 0);
+    transition:  0.3s; 
+    
 }
 .Langejas{
     margin-right: 80px;
@@ -24,14 +25,12 @@
 
 .Cargojas > img:hover{
     transform: scale(1.1);
-    transition: 0.3ms;
-    box-shadow: rgb(0, 0, 0);
+    transition:  0.3s; 
 }
 
 .Langejas > img:hover{
     transform: scale(1.1);
-    transition: 0.3ms;
-    box-shadow: rgb(0, 0, 0);
+    transition:  0.3s; 
 }
 
 h1{
@@ -52,6 +51,7 @@ h1{
     background-color: rgb(212, 212, 212);
     text-align: center;
     border-radius: 10px;
+    font-size: 20px;
    
   }
   
@@ -82,6 +82,7 @@ h1{
     margin: 0; 
     cursor: pointer;
     border-radius: 10px;
+    font-size: 20px;
   }
   
 
@@ -164,3 +165,44 @@ header h1 {
     
 }
 
+
+
+.search{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 40px;
+    right: 250px;
+    border-radius: 8px;
+
+}
+
+.search-input{
+    font-size: 16px;
+    color: #333333;
+    outline: black;
+    border-color: #333333;
+    width: 200px;
+
+}
+
+.search-bar{
+    background-color: black;
+}
+
+button {
+    background-color: black; 
+    color: white; 
+    padding: 10px; 
+    font-size: 16px;
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: 0.3s; 
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: black;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px); 
+}
