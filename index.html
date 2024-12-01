@@ -14,6 +14,7 @@
 <body>
     <header>
 
+        <h1>A&Y</h1>
 
         <section class="logo">
             <a href="index.html">
@@ -28,31 +29,34 @@
             <button>Zoek</button>
         </section>
 
-        <nav class="navbar">
-            <ul>
-                <li><a href="CONTACT.HTML">Contact</a></li>
-                <li><a href="OVERONS.HTML">Over ons</a></li>
-            </ul>
-        </nav>
 
-        <section class="heren">
-            <ul>
-                <li><a href="SPORTKLEDING.HTML">Sport kleren</a></li>
-                <ul class="dropdown">
-                    <li><a href="SPORTHEREN.HTML">Heren</a></li>
-                    <li><a href="SPORTVROUWEN.HTML">Dames</a></li>
-                </ul>
-            </ul>
+        <div class="navbar">
+            <a href="CONTACT.HTML">Contact</a>
+            <a href="OVERONS.HTML">Over ons</a>
+            <div class="dropdown">
+                <button class="dropbutton">Klassieke kleren</button>
 
-            <ul>
-                <li><a href="KLASSIEKKLEDING.HTML">Klassieke kleren</a></li>
-                <ul class="dropdown">
-                    <li><a href="KLASSIEKJAS.HTML">Jassen</a></li>
-                    <li><a href="KLASSIEKBROEK.HTML">Broeken</a></li>
-                    <li><a href="ACCESOIRES.HTML">Accesoires</a></li>
-                </ul>
-            </ul>
-        </section>
+
+                </button>
+                <div class="dropdown-content">
+                    <a href="KLASSIEKKLEDING.HTML">Klassieke kleren menu</a>
+                    <a href="KLASSIEKJAS.HTML">Jassen</a>
+                    <a href="KLASSIEKBROEK.HTML">Broeken</a>
+                    <a href="ACCESOIRES.HTML">Accesoires</a>
+
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbutton">Sport kleren
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="SPORTHEREN.HTML">Heren</a>
+                    <a href="SPORTVROUWEN.HTML">Dames</a>
+                </div>
+            </div>
+        </div>
 
 
 
