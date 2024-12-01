@@ -7,7 +7,7 @@ h1{
     margin-top: 0px;
     margin-left: 0px;
     position: absolute;
-    margin: 0;
+    border-radius: 50%;
 }
 
 
@@ -113,6 +113,7 @@ h1{
     width: 35px;
     cursor: pointer;
     transition: transform 0.2s;
+    gap: 60px;
 }
 
 .icons img:hover {
@@ -134,3 +135,36 @@ header h1 {
     top: 40px;
     
 }
+
+.korting > h2{
+    position: absolute;
+    text-align: center;
+    color: white;
+    left: 0px;
+    top: 600px;
+    font-size: 50px;
+}
+
+.search{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 40px;
+    right: 250px;
+    border-radius: 8px;
+
+}
+
+.search-input{
+    font-size: 16px;
+    color: #333333;
+    outline: black;
+    border-color: #333333;
+    width: 200px;
+
+}
+
+.search-bar{
+    background-color: black;
+}
+
