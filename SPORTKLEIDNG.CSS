@@ -1,4 +1,4 @@
-/* YUNAY heeft dit gemaakt */
+/* YUNAY heeft dit gemaakt.*/
 
 .roboto-medium {
     font-family: "Roboto", sans-serif;
@@ -200,8 +200,9 @@ header h1 {
 .categories {
     display: flex;
     justify-content: center;
+    transform: scale(1);
+    transition: 0.5;
 }
-
 
 .Dames :hover {
     display: block;
@@ -209,19 +210,21 @@ header h1 {
     height: auto;
     filter: brightness(70%);
     transition: transform 0.3s ease, filter 0.3s ease; 
+    transit
     
 }
 
-
+.Heren {
+    transform: scale(1);
+    transition: 0.5;
+}
 
 .Heren :hover {
     display: block;
     width: 600px;
     height: auto;
     filter: brightness(70%);
-    transition: transform 0.3s ease, filter 0.3s ease; 
-    
-
+    transition: transform 0.5s ease, filter 0.5s ease; 
 }
 
 .dames-tekst {
@@ -243,6 +246,79 @@ header h1 {
     font-weight: 500;
     font-style: normal;
     text-shadow: #333333;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.women-gymwear {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+  font-weight: bold;
+  color: #151414;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+    border-bottom: 2px solid #0c0c0c;
+    border-bottom: 2px solid ;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.women-gymwear ul {
+    font-family: "Roboto", sans-serif;
+    list-style-type: none;
+    padding: 0;
+}
+
+.mens-gymwear {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #060606;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #0c0c0c;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.mens-gymwear ul {
+    font-family: "Roboto", sans-serif;
+    list-style-type: none;
+    padding: 0;
+}
+
+.women-gymwear ul li a {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: #0e0e0e;
+    font-size: 16px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.mens-gymwear ul li a {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: #121212;
+    font-size: 16px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.mens-gymwear ul li a:hover {
+    color: #5e5c5b;
+  transform: translateX(5px);
+}
+
+.women-gymwear ul li a:hover {
+    color: #5e5c5b;
+    transform: translateX(5px);
 }
 
 footer {

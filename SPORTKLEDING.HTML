@@ -20,16 +20,21 @@
 <body>
     <main>
         <header>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#overons">Over ons</a></li>
-                    <li><a href="#shopnu">Shop nu</a></li>
-                </ul>
-            </nav>
+            
 
             <section class="Titel">
                 <h1>A&Y</h1>
             </section>
+
+            
+        <form>
+            <div class="search">
+                <span class=" search-icon material-symbols-outlined">search</span>
+                <input class="search-input" type="search" placeholder="Search">
+            </div>
+        </form>
+
+
 
             <div class="logo">
                 <a href="index.html">
@@ -37,24 +42,34 @@
                 </a>
             </div>
 
-            <section class="heren">
-                <ul>
-                    <li><a href="SPORTKLEDING.HTML">Sport kleren</a></li>
-                    <ul class="dropdown">
-                        <li><a href="SPORTHEREN.HTML">Heren</a></li>
-                        <li><a href="SPORTVROUWEN.HTML">Dames</a></li>
-                    </ul>
-                </ul>
-
-                <ul>
-                    <li><a href="KLASSIEKKLEDING.HTML">Klassieke kleren</a></li>
-                    <ul class="dropdown">
-                        <li><a href="KLASSIEKJAS.HTML">Jassen</a></li>
-                        <li><a href="KLASSIEKBROEK.HTML">Broeken</a></li>
-                        <li><a href="ACCESOIRES.HTML">Accesoires</a></li>
-                    </ul>
-                </ul>
-            </section>
+            <div class="navbar">
+                <a href="CONTACT.HTML">Contact</a>
+                <a href="OVERONS.HTML">Over ons</a>
+                <div class="dropdown">
+                    <button class="dropbutton">Klassieke kleren</button>
+    
+    
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="KLASSIEKKLEDING.HTML">Klassieke kleren menu</a>
+                        <a href="KLASSIEKJAS.HTML">Jassen</a>
+                        <a href="KLASSIEKBROEK.HTML">Broeken</a>
+                        <a href="ACCESOIRES.HTML">Accesoires</a>
+    
+                    </div>
+                </div>
+    
+                <div class="dropdown">
+                    <button class="dropbutton">Sport kleren
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="SPORTKLEDING.HTML">Sport Kleren menu</a>
+                        <a href="SPORTHEREN.HTML">Heren</a>
+                        <a href="SPORTVROUWEN.HTML">Dames</a>
+                    </div>
+                </div>
+            </div>
 
 
             <section class="icons">
@@ -69,7 +84,7 @@
                         <img src="heart.png" alt="Wishlist" width="35">
                     </a>
                 </section>
-
+    
 
                 <section class="Account">
                     <a href="ACCOUNT.HTML">
@@ -84,43 +99,49 @@
 
         </header>
 
-        <section id="shopnu" class="korting">
-            <h2>t.e.m 20/11/2024 10% korting met de code: 5APP, voor bestellingen boven de 100 euro!</h2>
-        </section>
+        
         <section>
 
             <section id="shopnu" class="categories">
                 <div class="Heren">
+
+                    <div class="heren-tekst">
                     <h3>Heren</h3>
+                    </div>
+
                     <a href="SPORTHEREN.HTML">
                         <img src="https://cdn.shopify.com/s/files/1/0185/2846/9056/products/DSC06295_1.jpg?v=1655381486"
-                            alt="Heren" width="500">
+                            class="heren-foto" alt="Heren" width="500.5">
+
                     </a>
                 </div>
-            </section>
 
-            <section id="shopnu" class="categories">
-                <div class="Dames">
+                <section class="Dames">
+
+                    <div class="dames-tekst">
                     <h3>Dames</h3>
-                    <a href="SPORTVROUWEN.HTML">
-                        <img src="Jesicca.png.jpg" alt="Dames" width="500">
-                    </a>
-                </div>
-            </section>
+                    </div>
 
-            <article class="products">
-                <section class="women-gymwear">
-                    <h2>Dames Gymwear</h2>
-                    <ul>
-                        <li><a href="#">Gym Shorts</a></li>
-                        <li><a href="#">Cycling Shorts</a></li>
-                        <li><a href="#">Running Shorts</a></li>
-                        <li><a href="#">Sports Bras</a></li>
-                        <li><a href="#">High Impact Sports Bras</a></li>
-                        <li><a href="#">Black Sports Bras</a></li>
-                        <li><a href="#">All In One</a></li>
-                    </ul>
+                    <a href="SPORTVROUWEN.HTML">
+                        <img src="Jesicca.png.jpg" class="dames-foto" alt="Dames" width="500">
+                    </a>
                 </section>
+
+                </section>
+
+                <article class="products">
+                    <section class="women-gymwear">
+                        <h2>Dames Gymwear</h2>
+                        <ul>
+                            <li><a href="#">Gym Shorts</a></li>
+                            <li><a href="#">Cycling Shorts</a></li>
+                            <li><a href="#">Running Shorts</a></li>
+                            <li><a href="#">Sports Bras</a></li>
+                            <li><a href="#">Impact Sports Bras</a></li>
+                            <li><a href="#">Black Sports Bras</a></li>
+                            
+                        </ul>
+                    </section>
 
                 <section class="mens-gymwear">
                     <h2>Heren Gymwear</h2>
@@ -130,27 +151,57 @@
                         <li><a href="#">Sleeveless T-Shirts</a></li>
                         <li><a href="#">Gym Stringers</a></li>
                     </ul>
-                </section>
-            </article>
+            </section>
+        </article>
     </main>
 
-    <footer class="overons" id="overons">
-        <br>
-        <p>Winkelstraat 31 1930 Zaventem</p>
-        <br>
-        <p>02 433 23 39 91</p>
-        <br>
-        <p>A&Y@contact.be</p>
-        <br>
-        <section class="sociale-media>" <a href="https://www.instagram.com/hm/" target="_blank">
-            <img src="instagram.png" alt="Instagram" width="40"></a>
-            <a href="https://www.tiktok.com/@hm" target="_blank">
-                <img src="tik-tok.png" alt="TikTok" width="40"></a>
-        </section>
-        <br>
-        <p>&copy; <span id="year"></span> 2024 A&Y. All Rights Reserved.</p>
+    <footer>
+        <section class="footer-container">
+          <div class="footer-column">
+            <h3>HELP</h3>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Delivery Information</a></li>
+              <li><a href="#">Returns Policy</a></li>
+              <li><a href="#">Make A Return</a></li>
+              <li><a href="#">Orders</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>MIJN ACCOUNT</h3>
+            <ul>
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Register</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>CONTACTEER ONS</h3>
+            <ul>
+                <li><a href="https://workspace.google.com/intl/nl/gmail/">A&Y@contact.be</a></li>
+                
+            </ul>
+            <div class="footer-links">
+            </div>
+          </div>
+          <br>
+          <div class="footer-column">
+            <h3>VOLG ONS</h3>
+            <div class="social-icons">             
+              <a href="https://instagram.com">
+                <img src="instagram.png" class="Instagram" alt="Instagram" width="35">
+                </a>
+              <a href="https://tiktok.com">
+                <img src="tik-tok.png" class="Tiktok" alt="tiktok" width="35">
+                </a>
+            </div>
 
-    </footer>
+            <div class="copyright">
+                <p>A&Y 2024. All Rights Reserved</p>
+            </div>
+
+          </div>
+        </section>
+      </footer>
 
 </body>
 
