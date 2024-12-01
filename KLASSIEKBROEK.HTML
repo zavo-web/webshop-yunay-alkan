@@ -12,39 +12,52 @@
 
 <body>
 
-    <header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#overons">Over ons</a></li>
-                <li><a href="#shopnu">Shop nu</a></li>
-            </ul>
-        </nav>
+    < <h1>A&Y</h1>
 
-        <div class="logo">
+        <section class="logo">
             <a href="index.html">
                 <img src="logo.img.webp" alt="Logo" width="75">
             </a>
+        </section>
 
 
-        </div>
 
-        <div id="home" class="search-bar">
+        <section id="home" class="search-bar">
             <input type="text" id="searchInput" placeholder="Zoek...">
             <button>Zoek</button>
+        </section>
+
+
+        <div class="navbar">
+            <a href="CONTACT.HTML">Contact</a>
+            <a href="OVERONS.HTML">Over ons</a>
+            <div class="dropdown">
+                <button class="dropbutton">Klassieke kleren</button>
+
+
+                </button>
+                <div class="dropdown-content">
+                    <a href="KLASSIEKKLEDING.HTML">Klassieke kleren menu</a>
+                    <a href="KLASSIEKJAS.HTML">Jassen</a>
+                    <a href="KLASSIEKBROEK.HTML">Broeken</a>
+                    <a href="ACCESOIRES.HTML">Accesoires</a>
+
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbutton">Sport kleren
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="SPORTHEREN.HTML">Heren</a>
+                    <a href="SPORTVROUWEN.HTML">Dames</a>
+                </div>
+            </div>
         </div>
 
-        <section class="klassiek">
-            <a href="KLASSIEKKLEDING.HTML">
-                <h2>Klassieke kleding</h2>
-            </a>
-        </section>
 
-        <section id="shopnu" class="sport">
-            <a href="SPORTKLEDING.HTML">
-                <h2>Sport kleding</h2>
-            </a>
-        </section>
+
 
         <section class="icons">
             <div class="winkelwagen">
@@ -69,58 +82,61 @@
                 <img src="menu-burger.png" alt="menu" width="35">
 
             </section>
-    </header>
-
-    <main>
-        <section class="broekenproduct">
-            <h2>Broeken</h2>
-        </section>
 
 
 
-        <section class="alle-broeken">
-            <article class="grijsbroek">
-                <h3>Grijze broek loose fit</h3>
-                <img src="grijsbroek.avif" alt="Grijze broek loose fit" width="200">
-                <p>€30</p>
-                <p>5-pocketjeans van stevig katoenen denim.</p>
-                <button>Voeg toe aan winkelmand</button>
-            </article>
+            </header>
 
-            <article class="blauwjeans">
-                <h3>Blauwe jeans regular fit</h3>
-                <img src="blauwjeans.avif" alt="Blauwe jeans regular fit" width="200">
-                <p>€35</p>
-                <p>5-pocketjeans van katoenen denim met lichte stretch.</p>
-                <button>Voeg toe aan winkelmand</button>
-            </article>
+            <main>
+                <section class="broekenproduct">
+                    <h2>Broeken</h2>
+                </section>
 
-            <article class="broekwolmix">
-                <h3>Geklede broek van wolmix Relaxed Fit</h3>
-                <img src="broekwolmix.avif" alt="Geklede broek wolmix Relaxed fit" width="200">
-                <p>€40</p>
-                <p>Een geklede broek van geweven wolmix. Relaxed Fit.</p>
-                <button>Voeg toe aan winkelmand</button>
-            </article>
-        </section>
-    </main>
 
-    <footer class="overons" id="overons">
-        <br>
-        <p>Winkelstraat 31 1930 Zaventem</p>
-        <br>
-        <p>02 433 23 39 91</p>
-        <br>
-        <p>A&Y@contact.be</p>
-        <br>
-        <a href="https://www.instagram.com/hm/" target="_blank">
-            <img src="instagram.png" alt="Instagram" width="40"></a>
-        <a href="https://www.tiktok.com/@hm" target="_blank">
-            <img src="tik-tok.png" alt="TikTok" width="40"></a>
-        <br>
-        <p>&copy; <span id="year"></span> 2024 A&Y. All Rights Reserved.</p>
 
-    </footer>
+                <section class="alle-broeken">
+                    <article class="grijsbroek">
+                        <h3>Grijze broek loose fit</h3>
+                        <img src="grijsbroek.avif" alt="Grijze broek loose fit" width="200">
+                        <p>€30</p>
+                        <p>5-pocketjeans van stevig katoenen denim.</p>
+                        <button>Voeg toe aan winkelmand</button>
+                    </article>
+
+                    <article class="blauwjeans">
+                        <h3>Blauwe jeans regular fit</h3>
+                        <img src="blauwjeans.avif" alt="Blauwe jeans regular fit" width="200">
+                        <p>€35</p>
+                        <p>5-pocketjeans van katoenen denim met lichte stretch.</p>
+                        <button>Voeg toe aan winkelmand</button>
+                    </article>
+
+                    <article class="broekwolmix">
+                        <h3>Geklede broek van wolmix Relaxed Fit</h3>
+                        <img src="broekwolmix.avif" alt="Geklede broek wolmix Relaxed fit" width="200">
+                        <p>€40</p>
+                        <p>Een geklede broek van geweven wolmix. Relaxed Fit.</p>
+                        <button>Voeg toe aan winkelmand</button>
+                    </article>
+                </section>
+            </main>
+
+            <footer class="overons" id="overons">
+                <br>
+                <p>Winkelstraat 31 1930 Zaventem</p>
+                <br>
+                <p>02 433 23 39 91</p>
+                <br>
+                <p>A&Y@contact.be</p>
+                <br>
+                <a href="https://www.instagram.com/hm/" target="_blank">
+                    <img src="instagram.png" alt="Instagram" width="40"></a>
+                <a href="https://www.tiktok.com/@hm" target="_blank">
+                    <img src="tik-tok.png" alt="TikTok" width="40"></a>
+                <br>
+                <p>&copy; <span id="year"></span> 2024 A&Y. All Rights Reserved.</p>
+
+            </footer>
 
 
 
