@@ -1,43 +1,9 @@
-/* ALKAN HEEFT DIT GEMAAKT */
-.alle-accesoires{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    gap: 100px;
-    margin-right: 70px;
-
-}
-.zwartpet>img:hover{
-    transform: scale(1.1);
-    transition:  0.3s; 
-}
-.zwartmuts>img:hover{
-    transform: scale(1.1);
-    transition:  0.3s; 
-}
-.lerenhandschoen>img:hover{
-    transform: scale(1.1);
-    transition:  0.3s; 
-}
-
-button {
-    background-color: black; 
-    color: white; 
-    padding: 10px; 
-    font-size: 16px;
-    border-radius: 8px; 
-    cursor: pointer; 
-    transition: 0.3s; 
-    margin-top: 20px;
-}
-
-button:hover {
-    background-color: black;
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
-    transform: translateY(-2px); 
-}
-    
-
+/* ALKAN heeft dit gemaakt */
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
 
 h1{
     text-align: center;
@@ -70,6 +36,8 @@ h1{
     padding: 14px 16px;
     text-decoration: none;
     border-radius: 10px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    
    
   }
   
@@ -89,12 +57,22 @@ h1{
     cursor: pointer;
     border-radius: 10px;
      font-size: 20px;
+     transition: 0.3s;
+     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    
   }
   
 
   .navbar > a:hover {
     background-color: rgb(238, 238, 238);
+    
+        
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+        transform: translateY(-2px); 
+    
   }
+
+    
 
   .dropdown:hover > .dropbutton{
     background-color: rgb(238, 238, 238);
@@ -130,6 +108,12 @@ h1{
     display: block;
   }
 
+  button:hover {
+    background-color: black;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px); 
+}
+
 
 
 .logo {
@@ -142,7 +126,7 @@ h1{
 .icons {
     position: absolute;
     top: 30px;
-    right: 5px;
+   right: 5px;
     display: flex;
     gap: 15px;
     align-items: center;
@@ -177,14 +161,7 @@ header h1 {
     
 }
 
-.korting > h2{
-    position: absolute;
-    text-align: center;
-    color: white;
-    left: 0px;
-    top: 600px;
-    font-size: 50px;
-}
+
 
 .search{
     position: absolute;
@@ -209,3 +186,52 @@ header h1 {
     background-color: black;
 }
 
+.alle-broeken{
+    display: flex;
+    justify-content: center;
+    gap: 600px;
+    text-align: center;
+    margin-left: 130px;
+    cursor: pointer;
+    
+    
+}
+.grijsbroek{
+    position: absolute;
+    margin-right: 130px;
+}
+.blauwjeans > img:hover{
+    transform: scale(1.1);
+    transition:  0.3s; 
+    
+}
+.broekwolmix{
+    margin-right: 80px;
+}
+
+.grijsbroek > img:hover{
+    transform: scale(1.1);
+    transition:  0.3s; 
+}
+
+.broekwolmix > img:hover{
+    transform: scale(1.1);
+    transition:  0.3s; 
+}
+
+button {
+    background-color: black; 
+    color: white; 
+    padding: 10px; 
+    font-size: 16px;
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: 0.3s; 
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: black;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px); 
+}
