@@ -186,3 +186,105 @@ header h1 {
     background-color: black;
 }
 
+footer {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+  color: #000;
+}
+
+.footer-links {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-card {
+  display: block;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  flex: 1;
+  text-decoration: none;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.footer-card:hover {
+  transform: scale(1.05);
+  background-color: #333;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.Tiktok:hover {
+  transform: scale(1.1);
+  transition: 0.3;
+}
+
+.Instagram:hover {
+  transform: scale(1.1);
+  transition: 0.3;
+}
+
+.social-icon {
+  position: absolute;
+  margin-right: 50px;
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.copyright {
+  text-decoration: none;
+  color: #555;
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 100px;
+} 
