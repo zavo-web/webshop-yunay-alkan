@@ -13,34 +13,55 @@
 <body>
 
     <header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#overons">Over ons</a></li>
-                <li><a href="#shopnu">Shop nu</a></li>
-            </ul>
-        </nav>
+
+        <h1>A&Y</h1>
 
         <section class="logo">
-            <img src="logo.img.webp" alt="Logo" width="75">
-        </section>
-
-        <section id="home" class="search-bar">
-            <input type="text" id="searchInput" placeholder="Zoek...">
-            <button>Zoek</button>
-        </section>
-
-        <section class="klassiek">
-            <a href="KLASSIEKKLEDING.HTML">
-                <h2>Klassieke kleding</h2>
+            <a href="index.html">
+                <img src="logo.img.webp" alt="Logo" width="75">
             </a>
         </section>
 
-        <section id="shopnu" class="sport">
-            <a href="SPORTKLEDING.HTML">
-                <h2>Sport kleding</h2>
-            </a>
-        </section>
+
+
+        <form>
+            <div class="search">
+                <span class=" search-icon material-symbols-outlined">search</span>
+                <input class="search-input" type="search" placeholder="Search">
+            </div>
+        </form>
+
+
+        <div class="navbar">
+            <a href="CONTACT.HTML">Contact</a>
+            <a href="OVERONS.HTML">Over ons</a>
+            <div class="dropdown">
+                <button class="dropbutton">Klassieke kleren</button>
+
+
+                </button>
+                <div class="dropdown-content">
+                    <a href="KLASSIEKKLEDING.HTML">Klassieke kleren menu</a>
+                    <a href="KLASSIEKJAS.HTML">Jassen</a>
+                    <a href="KLASSIEKBROEK.HTML">Broeken</a>
+                    <a href="ACCESOIRES.HTML">Accesoires</a>
+
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbutton">Sport kleren
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="SPORTHEREN.HTML">Heren</a>
+                    <a href="SPORTVROUWEN.HTML">Dames</a>
+                </div>
+            </div>
+        </div>
+
+
+
 
         <section class="icons">
             <div class="winkelwagen">
@@ -65,11 +86,14 @@
                 <img src="menu-burger.png" alt="menu" width="35">
 
             </section>
+
+
+
     </header>
 
     <main>
         <section class="accesoires">
-            <h2>Accesoires</h2>
+            <h1>Accesoires</h1>
         </section>
 
 
