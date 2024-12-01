@@ -1,5 +1,7 @@
 /* YUNAY heeft dit gemaakt.*/
-
+*{
+  font-family: sans-serif;
+}
 .roboto-medium {
     font-family: "Roboto", sans-serif;
     font-weight: 500;

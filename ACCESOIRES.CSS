@@ -1,4 +1,8 @@
 /* ALKAN HEEFT DIT PAGINA GEMAAKT */
+*{
+    font-family: sans-serif;
+}
+
 .alle-accesoires{
     display: flex;
     justify-content: center;

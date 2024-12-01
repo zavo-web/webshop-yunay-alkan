@@ -1,5 +1,7 @@
 /* ALKAN heeft dit gemaakt */
-
+*{
+    font-family: sans-serif;
+}
 .AlleJassen{
     display: flex;
     justify-content: center;
