@@ -19,15 +19,15 @@
 
 <body>
     <header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#overons">Over ons</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        
+        <div class="navbar">
+            <a href="CONTACT.HTML">Contact</a>
+            <a href="OVERONS.HTML">Over ons</a>
+            <div class="dropdown">
+                <button class="dropbutton">Klassieke kleren</button>
+    
 
-        <div class="icon">
+        <div class="logo">
             <a href="index.html">
                 <img src="logo.img.webp" alt="Icon" width="70">
             </a>
@@ -38,19 +38,28 @@
             <button>Zoek</button>
         </div>
 
-        <section class="categories">
-            <section class="klassiekekleding">
-                <a href="KLASSIEKKLEDING.HTML">
-                    <h2>Klassieke kleding</h2>
-                </a>
-            </section>
+        <div class="dropdown-content">
+            <a href="KLASSIEKKLEDING.HTML">Klassieke kleren menu</a>
+            <a href="KLASSIEKJAS.HTML">Jassen</a>
+            <a href="KLASSIEKBROEK.HTML">Broeken</a>
+            <a href="ACCESOIRES.HTML">Accesoires</a>
 
-            <section class="sportheren">
-                <a href="SPORTHEREN.HTML">
-                    <h2>Heren</h2>
-                </a>
-            </section>
-        </section>
+        </div>
+    </div>
+
+
+
+    <div class="dropdown">
+        <button class="dropbutton">Sport kleren
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="SPORTKLEDING.HTML">Sport Kleren Menu</a>
+            <a href="SPORTHEREN.HTML">Heren</a>
+            <a href="SPORTVROUWEN.HTML">Dames</a>
+        </div>
+    </div>
+</div>
 
         <section class="icons">
             <div class="winkelwagen">
@@ -81,13 +90,15 @@
     <main>
         <h1>Vrouwen</h1>
 
-        <section id="contact" class="product">
+    <section class="products">
+        <article class="product">
             <img src="https://cdn.shopify.com/s/files/1/1367/5201/files/SweatSeamlessZipUpJacketGSBlackB3A8W-BB2J1337_bd630eb4-da79-4de6-bca9-bbb983bf597c_384x.jpg?v=1701441720"
                 alt="Sweat Seamless Zip Up Jacket" width="170">
             <h3>Sweat Seamless Zip Up Jacket</h3>
             <p>Slim fit</p>
             <p>€24,99</p>
-        </section>
+            <button class="winkelmand-button">Voeg toe aan winkelmand</button>
+        </article>
 
         <article class="product">
             <img src="https://cdn.shopify.com/s/files/1/1367/5201/files/TRAININGFLEECEJOGGER-GSBlack-B7A4D-BB2J-0278_074eed14-6878-4a30-9c40-0571fee7bd9e_1920x.jpg?v=1717097792"
@@ -95,14 +106,26 @@
             <h3>Training Fleece Joggers</h3>
             <p>Regular fit</p>
             <p>€39,99</p>
+            <button class="winkelmand-button">Voeg toe aan winkelmand</button>
         </article>
 
         <article class="product">
+            <img src="https://cdn.shopify.com/s/files/1/1367/5201/files/VitalSeamlessVNeckSportsBraGsHeavyBlueMarlB3A4K-UCW7-0005_92eb0642-bab5-4083-a783-3dfab29a7f6e_1920x.jpg?v=1722504911" alt="Vital Seamless V Neck Sports Bra" width="170">
+            <h3>Vital Seamless V Neck Sports Bra</h3>
+            <p>Compression fit</p>
+            <p>€29,99</p>
+            <button class="winkelmand-button">Voeg toe aan winkelmand</button>
+        </article>
+    </section>
+<br>
+    <section class="products2">
+        <article class="product">
             <img src="https://cdn.shopify.com/s/files/1/1367/5201/files/TrainingOversizedFleeceSweatshirtGSMutedOrangeB5A9R-OBP08837_1920x.jpg?v=1713952089"
                 alt="Training Oversized Fleece Sweatshirt" width="170">
-            <h3>Training Oversized Fleece Sweatshirt</h3>
+            <h3>Training Oversized Sweatshirt</h3>
             <p>Oversized fit</p>
             <p>€49,99</p>
+            <button class="winkelmand-button">Voeg toe aan winkelmand</button>
         </article>
 
         <article class="product">
@@ -111,9 +134,19 @@
             <h3>Vital Seamless Leggings</h3>
             <p>Compression fit</p>
             <p>€29,99</p>
+            <button class="winkelmand-button">Voeg toe aan winkelmand</button>
         </article>
-    </main>
 
+        <article class="product">
+            <img src="https://cdn.shopify.com/s/files/1/1367/5201/files/RESTDAYCABLEKNITPANTBROSRichMaroon-Marl-GSBurgundyBrown-GSSoftBerryB7A3Q-RBSN-1934_1920x.jpg?v=1700764525" alt="Rest Day Cable Knit Pants" width="170">
+            <h3>Rest Day Cable Knit Pants</h3>
+            <p>Regular fit</p>
+            <p>€59,99</p>
+            <button class="winkelmand-button">Voeg toe aan winkelmand</button>
+        </article>
+</section>
+    </main>
+<br>
     <footer>
         <section class="footer-container">
           <div class="footer-column">
