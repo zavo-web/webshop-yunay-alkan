@@ -24,16 +24,7 @@
     transition:  0.3s; 
 }
 
-button {
-    background-color: black; 
-    color: white; 
-    padding: 10px; 
-    font-size: 16px;
-    border-radius: 8px; 
-    cursor: pointer; 
-    transition: 0.3s; 
-    margin-top: 20px;
-}
+
 
 button:hover {
     background-color: black;
@@ -174,12 +165,6 @@ header h1 {
     padding: 20px 0 10px 0;
 }
 
-.search-bar{
-    position: absolute;
-    right: 250px;
-    top: 40px;
-    
-}
 
 .korting > h2{
     position: absolute;
@@ -190,28 +175,6 @@ header h1 {
     font-size: 50px;
 }
 
-.search{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    top: 40px;
-    right: 250px;
-    border-radius: 8px;
-
-}
-
-.search-input{
-    font-size: 16px;
-    color: #333333;
-    outline: black;
-    border-color: #333333;
-    width: 200px;
-
-}
-
-.search-bar{
-    background-color: black;
-}
 
 footer {
   background-color: #f9f9f9;
@@ -315,3 +278,60 @@ footer {
   margin-top: 120px;
   margin-left: 100px;
 } 
+
+.winkelmand-button {
+  background-color: black; 
+  color: white; 
+  padding: 10px; 
+  font-size: 16px;
+  border-radius: 8px; 
+  cursor: pointer; 
+  transition: 0.3s; 
+  margin-top: 20px;
+  align-items: center;
+}
+
+.winkelmand-button:hover {
+  background-color: black;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px); 
+}
+
+
+
+.search-bar {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 34px;
+  right: 225px;
+  border-radius: 8px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+.search-bar input:focus {
+  box-shadow: 0 0 10px rgba(3, 3, 3, 0.6);
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background: #10100f;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.search-bar button:hover {
+  transform: scale(1.1);
+}

@@ -203,8 +203,7 @@ button:hover {
     transform: scale(1.1);
 }
 
-
-button {
+.winkelmand-button {
     background-color: black; 
     color: white; 
     padding: 10px; 
@@ -213,6 +212,13 @@ button {
     cursor: pointer; 
     transition: 0.3s; 
     margin-top: 20px;
+    align-items: center;
+}
+
+.winkelmand-button:hover {
+    background-color: black;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px); 
 }
 
 button:hover {
