@@ -1,5 +1,9 @@
 
 /* ALKAN HEEFT DIT GEMAAKT */
+
+*{
+  font-family: sans-serif;
+}
 .categories{
     display: flex;
     align-items: center;
