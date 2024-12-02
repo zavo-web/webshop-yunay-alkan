@@ -156,6 +156,7 @@ header h1 {
     padding: 20px 0 10px 0;
 }
 
+
 .search-bar{
     position: absolute;
     right: 250px;
@@ -163,29 +164,91 @@ header h1 {
     
 }
 
-
-
-.search{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    top: 40px;
-    right: 250px;
-    border-radius: 8px;
-
+.Forms {
+  max-width: 400px; 
+  margin: 20px auto; 
+  padding: 20px; 
+  background-color: #f9f9f9; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  font-family: Arial, sans-serif; 
 }
 
-.search-input{
-    font-size: 16px;
-    color: #333333;
-    outline: black;
-    border-color: #333333;
-    width: 200px;
-
+.Forms label {
+  font-weight: bold; 
+  display: block; 
+  margin-bottom: 5px; 
+  color: #333; 
 }
 
-.search-bar{
-    background-color: black;
+.Forms input[type="text"] {
+  width: 100%; 
+  padding: 10px;
+  margin-bottom: 15px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  font-size: 14px; 
+}
+
+.Forms input[type="submit"] {
+  background-color: #131413; 
+  color: white; 
+  padding: 10px 20px; 
+  text-align: center;
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  border-radius: 4px;
+  cursor: pointer; /
+  transition: background-color 0.3s ease;
+}
+
+.Forms input[type="submit"]:hover {
+  background-color: #151515; 
+}
+
+
+button:hover {
+  background-color: black;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px); 
+}
+
+.search-bar {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 34px;
+  right: 225px;
+  border-radius: 8px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+.search-bar input:focus {
+  box-shadow: 0 0 10px rgba(3, 3, 3, 0.6);
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background: #10100f;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.search-bar button:hover {
+  transform: scale(1.1);
 }
 
 footer {
