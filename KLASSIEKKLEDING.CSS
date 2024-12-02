@@ -3,8 +3,9 @@
 
 *{
   font-family: sans-serif;
-
 }
+
+
 .categories{
     display: flex;
     align-items: center;
@@ -187,6 +188,8 @@ header h1 {
     font-weight: bold;
     cursor: pointer;
     transition: transform 0.2s ease;
+   
+
 }
 
 .search-bar button:hover {
