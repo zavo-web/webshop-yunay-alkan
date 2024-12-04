@@ -203,6 +203,8 @@ header h1 {
     border-radius: 8px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     font-family: Arial, sans-serif; 
+    position: ab;
+    margin-top: 50px;
   }
   
   .Forms label {
@@ -212,7 +214,7 @@ header h1 {
     color: #333; 
   }
   
-  .Forms input[type="text"] {
+  .Forms input[type="email"] {
     width: 100%; 
     padding: 10px;
     margin-bottom: 15px; 
@@ -220,6 +222,15 @@ header h1 {
     border-radius: 4px;
     font-size: 14px; 
   }
+
+   .Forms input[type="password"] {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    font-size: 14px; 
+   }
   
   .Forms input[type="submit"] {
     background-color: #131413; 
