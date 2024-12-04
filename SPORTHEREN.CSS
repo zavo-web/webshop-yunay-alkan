@@ -200,28 +200,14 @@ header h1 {
     display: flex;
     justify-content: center;
     gap: 40px;
-    align-items: center;
-    margin-left: 40px;
-    
+    text-align: center;
 }
 
 .products2 {
     display: flex;
     justify-content: center;
     gap: 40px;
-    align-items: center;
-    margin-left: 40px;
-    
-}
-
-.Oversized {
-    margin-left: 40px;
-}
-
-
-
-.product{
-    align-items: center;
+    text-align: center;
 }
 
 .product img:hover {
