@@ -215,10 +215,14 @@ button:hover {
     align-items: center;
 }
 
+.ZwarteJas > button{
+  margin-top: 37px;
+}
+
 .winkelmand-button:hover {
     background-color: black;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
-    transform: translateY(-2px); 
+   
 }
 
 button:hover {
