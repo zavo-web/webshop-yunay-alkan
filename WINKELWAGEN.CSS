@@ -308,12 +308,3 @@ footer {
   margin-top: 120px;
   margin-left: 100px;
 } 
-
-.korting > h2{
-  position: absolute;
-  text-align: center;
-  color: white;
-  left: 0px;
-  top: 600px;
-  font-size: 50px;
-}
