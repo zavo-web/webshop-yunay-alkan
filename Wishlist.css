@@ -157,6 +157,11 @@ header h1 {
     padding: 20px 0 10px 0;
 }
 
+.Wishlist-inhoud {
+  text-align: center;
+  
+}
+
 button:hover {
   background-color: black;
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
