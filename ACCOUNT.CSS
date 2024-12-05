@@ -1,0 +1,356 @@
+/* Yunay heeft dit gemaakt */
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+*{
+  font-family: sans-serif;
+}
+
+h1{
+  text-align: center;
+  font-size: 40px;
+}
+.logo{
+  margin-top: 0px;
+  margin-left: 0px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(212, 212, 212);
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+
+
+
+.navbar > a {
+  float: left;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  
+ 
+}
+
+
+.dropdown {
+  float: left;
+}
+
+.dropdown > .dropbutton {
+  font-size: 16px;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+  cursor: pointer;
+  border-radius: 10px;
+   font-size: 20px;
+   transition: 0.3s;
+   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  
+}
+
+
+.navbar > a:hover {
+  background-color: rgb(238, 238, 238);
+  
+      
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+      transform: translateY(-2px); 
+  
+}
+
+  
+
+.dropdown:hover > .dropbutton{
+  background-color: rgb(238, 238, 238);
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+ 
+
+.dropdown-content > a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+
+.dropdown-content > a:hover {
+  background-color: #ddd;
+}
+
+
+.dropdown:hover > .dropdown-content {
+  display: block;
+}
+
+button:hover {
+  background-color: black;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px); 
+}
+
+
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+}
+
+
+.icons {
+  position: absolute;
+  top: 30px;
+ right: 5px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  
+}
+
+
+.icons > img {
+  width: 35px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  gap: 60px;
+}
+
+.icons img:hover {
+  transform: scale(1.1);
+  transition: 0.3ms;
+}
+
+
+header h1 {
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  padding: 20px 0 10px 0;
+}
+
+.search-bar {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 34px;
+    right: 225px;
+    border-radius: 8px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .search-bar input:focus {
+    box-shadow: 0 0 10px rgba(3, 3, 3, 0.6);
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: #10100f;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .search-bar button:hover {
+    transform: scale(1.1);
+  }
+
+
+.Forms {
+    max-width: 400px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    font-family: Arial, sans-serif; 
+    position: ab;
+    margin-top: 50px;
+  }
+  
+  .Forms label {
+    font-weight: bold; 
+    display: block; 
+    margin-bottom: 5px; 
+    color: #333; 
+  }
+  
+  .Forms input[type="email"] {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    font-size: 14px; 
+  }
+
+   .Forms input[type="password"] {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    font-size: 14px; 
+   }
+  
+  .Forms input[type="submit"] {
+    background-color: #131413; 
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    border-radius: 4px;
+    cursor: pointer; 
+    transition: 0.3s ease;
+  }
+  
+  .Forms input[type="submit"]:hover {
+    background-color: #151515; 
+  }
+
+
+
+footer {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 500px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+  }
+  
+  .footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #000;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #555;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-column ul li a:hover {
+    color: #000;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .footer-card {
+    display: block;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    flex: 1;
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .footer-card:hover {
+    transform: scale(1.05);
+    background-color: #333;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+
+  .Tiktok:hover {
+    transform: scale(1.1);
+    transition: 0.3;
+  }
+
+  .Instagram:hover {
+    transform: scale(1.1);
+    transition: 0.3;
+  }
+  
+  .social-icon {
+    position: absolute;
+    margin-right: 50px;
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .copyright {
+    text-decoration: none;
+    color: #555;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 100px;
+  } 
