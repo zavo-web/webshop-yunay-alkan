@@ -153,6 +153,9 @@ header h1 {
     padding: 20px 0 10px 0;
 }
 
+.categories{
+  margin-top: 120px;
+}
 
 
 .search-bar {
@@ -192,12 +195,6 @@ header h1 {
 
 .search-bar button:hover {
     transform: scale(1.1);
-}
-
-
-
-.categories{
-    margin-top: 120px;
 }
 
 
