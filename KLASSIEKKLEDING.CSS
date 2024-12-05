@@ -8,7 +8,6 @@
 
 .categories{
     display: flex;
-    align-items: center;
     justify-content: center;
     gap: 120px;
     text-align: center;
@@ -37,7 +36,6 @@ h1{
 .logo{
     margin-top: 0px;
     margin-left: 0px;
-    position: relative;
     margin: 0;
 }
 
